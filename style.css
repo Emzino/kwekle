@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+*{
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #d5a263;
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    height: 100%;
+    background-color: rgb(231, 154, 154);
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+    border: 3px solid #402722;
+    border-radius: 10px;
+
+}
+
+.container .image {
+    margin-top: 20px;
+    height: 900px;
+    width: 895px;
+}
+
+.container img {
+    width: 527px;
+    
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #402722;
+    border-radius: 10px;
+}
+
+.container .divider{
+    margin: 30px auto;
+    width: 90%;
+    border: solid 1px #402722;
+    height: 1px;
+}
+.container .quote{
+    margin: 40px;
+    margin-top: 0px;
+    font-size: 11px;
+    padding: 20px;
+    background-color: rgba(249, 221, 209,0.3);
+    border-radius: 10px;
+    border: #402722 1px solid;
+    color: #382020;
+}
+
+.container .generate{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    cursor: pointer;
+    width: 140px;
+    border: #402722 2.25px solid;
+    border-radius: 10px;
+    background-color: rgba(250, 244, 192,0.6);
+
+}
+
+.container .generate h1{
+    padding-bottom: 6px ; padding-top: 8px;
+    padding-left: 11px; padding-right: 11px;
+
+    color: #382020;
+
+
+}
+
+
+.container .generate:hover{
+    background-color: rgba(227, 221, 169, 0.6)
+}
+
+.container .credits {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+    font-size: 12px;
+    user-select: none;
+
+
+}
+
+h1{
+
+            user-select: none;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .container {
+        height: auto;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+
+    .container img {
+        width: 70%;
+    }
+
+    .credits{
+        opacity: 0.5;
+    }
+}
