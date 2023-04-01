@@ -19,7 +19,7 @@ body {
     height: 100%;
     background-color: rgb(231, 154, 154);
     margin: 0 auto;
-    margin-top:10px;
+    margin-top:30px;
     margin-bottom: 10px;
 
     border: 3px solid #402722;
@@ -29,7 +29,6 @@ body {
 
 .container .image {
     margin-top: 20px;
-    height: 900px;
     width: 895px;
 }
 
@@ -105,7 +104,9 @@ h1{
 }
 
 
-
+.space{
+    margin-top: 100px;
+}
 @media screen and (max-width: 900px) {
     .container {
         height: auto;
@@ -120,5 +121,9 @@ h1{
 
     .credits{
         opacity: 0.5;
+    }
+
+    .container .space{
+        margin-top: 60%;
     }
 }
