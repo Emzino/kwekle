@@ -16,6 +16,9 @@ body {
     display: flex;
     justify-content: center;
     max-width: 900px;
+
+    max-height: 1000px;
+
     height: 100%;
     background-color: rgb(231, 154, 154);
     margin: 0 auto;
@@ -24,7 +27,6 @@ body {
 
     border: 3px solid #402722;
     border-radius: 10px;
-
 }
 
 .container .image {
@@ -34,8 +36,6 @@ body {
 
 .container img {
     width: 527px;
-    
-    height: auto;
     display: block;
     margin: 0 auto;
     border: 3px solid #402722;
@@ -109,9 +109,10 @@ h1{
 }
 @media screen and (max-width: 900px) {
     .container {
-        height: auto;
         width: 90%;
         margin-bottom: 10px;
+        height: 600px;
+
     }
 
 
